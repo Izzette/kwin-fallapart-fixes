@@ -11,6 +11,7 @@ pkgdesc='An easy to use, but flexible, composited Window Manager'
 arch=('i686' 'x86_64')
 url='https://www.kde.org/workspaces/plasmadesktop/'
 license=('LGPL')
+provides=("$_realname=$pkgver")
 depends=('kscreenlocker' 'xcb-util-cursor' 'hicolor-icon-theme' 'plasma-framework' 'kcmutils' 'breeze' 'kinit')
 makedepends=('extra-cmake-modules' 'qt5-tools' 'kdoctools' 'python')
 optdepends=('qt5-virtualkeyboard: virtual keyboard support for kwin-wayland')
