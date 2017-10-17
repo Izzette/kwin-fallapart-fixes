@@ -1,0 +1,32 @@
+pkgbase = kwin-fallapart-fixes
+	pkgdesc = An easy to use, but flexible, composited Window Manager
+	pkgver = 5.11.1
+	pkgrel = 1
+	url = https://www.kde.org/workspaces/plasmadesktop/
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = qt5-tools
+	makedepends = kdoctools
+	makedepends = python
+	depends = kscreenlocker
+	depends = xcb-util-cursor
+	depends = hicolor-icon-theme
+	depends = plasma-framework
+	depends = kcmutils
+	depends = breeze
+	depends = kinit
+	optdepends = qt5-virtualkeyboard: virtual keyboard support for kwin-wayland
+	source = https://download.kde.org/stable/plasma/5.11.1/kwin-5.11.1.tar.xz
+	source = https://download.kde.org/stable/plasma/5.11.1/kwin-5.11.1.tar.xz.sig
+	source = kwin-fallapart-fixes.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 348C8651206633FD983A8FC4DEACEA00075E1D76
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	sha256sums = 154387df916451236e9c6fb0ebabd59ddfe74c948360bbe97968e94bd745ccaa
+	sha256sums = SKIP
+	sha256sums = 72863244f38a6f275e6522d4ad518af61ab90c2543bf02c28c3b2decfb7f46e7
+
+pkgname = kwin-fallapart-fixes
+
