@@ -19,6 +19,7 @@ pkgbase = kwin-fallapart-fixes
 	depends = kinit
 	optdepends = qt5-virtualkeyboard: virtual keyboard support for kwin-wayland
 	provides = kwin=5.11.1
+	conflicts = kwin
 	source = https://download.kde.org/stable/plasma/5.11.1/kwin-5.11.1.tar.xz
 	source = https://download.kde.org/stable/plasma/5.11.1/kwin-5.11.1.tar.xz.sig
 	source = kwin-fallapart-fixes.patch
