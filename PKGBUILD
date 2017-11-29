@@ -5,7 +5,7 @@
 
 _realname='kwin'
 pkgname=("$_realname-fallapart-fixes")
-pkgver=5.11.3
+pkgver=5.11.4
 pkgrel=1
 pkgdesc='An easy to use, but flexible, composited Window Manager'
 arch=('i686' 'x86_64')
@@ -19,7 +19,7 @@ makedepends=('extra-cmake-modules' 'qt5-tools' 'kdoctools' 'python')
 optdepends=('qt5-virtualkeyboard: virtual keyboard support for kwin-wayland')
 source=("http://download.kde.org/stable/plasma/$pkgver/$_realname-$pkgver.tar.xz"{,'.sig'}
         'kwin-fallapart-fixes.patch')
-sha256sums=('94c66b90f93534068c7cf054e1853c49edee2d734c17a2286ff8d3236c3ffdf5' 'SKIP'
+sha256sums=('f989b2dbfd79d63e19e2bf1beb9e9088a3fb9a4a0d4a3ceac2b42201bd15d751' 'SKIP'
             '72863244f38a6f275e6522d4ad518af61ab90c2543bf02c28c3b2decfb7f46e7')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell
               '348C8651206633FD983A8FC4DEACEA00075E1D76'  # KDE Neon

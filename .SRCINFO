@@ -1,6 +1,6 @@
 pkgbase = kwin-fallapart-fixes
 	pkgdesc = An easy to use, but flexible, composited Window Manager
-	pkgver = 5.11.3
+	pkgver = 5.11.4
 	pkgrel = 1
 	url = https://www.kde.org/workspaces/plasmadesktop/
 	arch = i686
@@ -18,15 +18,15 @@ pkgbase = kwin-fallapart-fixes
 	depends = breeze
 	depends = kinit
 	optdepends = qt5-virtualkeyboard: virtual keyboard support for kwin-wayland
-	provides = kwin=5.11.3
+	provides = kwin=5.11.4
 	conflicts = kwin
-	source = http://download.kde.org/stable/plasma/5.11.3/kwin-5.11.3.tar.xz
-	source = http://download.kde.org/stable/plasma/5.11.3/kwin-5.11.3.tar.xz.sig
+	source = http://download.kde.org/stable/plasma/5.11.4/kwin-5.11.4.tar.xz
+	source = http://download.kde.org/stable/plasma/5.11.4/kwin-5.11.4.tar.xz.sig
 	source = kwin-fallapart-fixes.patch
 	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
 	validpgpkeys = 348C8651206633FD983A8FC4DEACEA00075E1D76
 	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
-	sha256sums = 94c66b90f93534068c7cf054e1853c49edee2d734c17a2286ff8d3236c3ffdf5
+	sha256sums = f989b2dbfd79d63e19e2bf1beb9e9088a3fb9a4a0d4a3ceac2b42201bd15d751
 	sha256sums = SKIP
 	sha256sums = 72863244f38a6f275e6522d4ad518af61ab90c2543bf02c28c3b2decfb7f46e7
 
