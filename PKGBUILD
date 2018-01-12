@@ -5,8 +5,8 @@
 
 _realname='kwin'
 pkgname=("$_realname-fallapart-fixes")
-pkgver=5.11.4
-pkgrel=2
+pkgver=5.11.5
+pkgrel=1
 pkgdesc='An easy to use, but flexible, composited Window Manager'
 arch=('i686' 'x86_64')
 url='https://www.kde.org/workspaces/plasmadesktop/'
@@ -19,11 +19,12 @@ makedepends=('extra-cmake-modules' 'qt5-tools' 'kdoctools' 'python')
 optdepends=('qt5-virtualkeyboard: virtual keyboard support for kwin-wayland')
 source=("http://download.kde.org/stable/plasma/$pkgver/$_realname-$pkgver.tar.xz"{,'.sig'}
         'kwin-fallapart-fixes.patch')
-sha256sums=('f989b2dbfd79d63e19e2bf1beb9e9088a3fb9a4a0d4a3ceac2b42201bd15d751' 'SKIP'
+sha256sums=('9fb0db84fd13568a0dcae7d1fdd3e72e5bbb80120d374941043d4474ea167f19' 'SKIP'
             '72863244f38a6f275e6522d4ad518af61ab90c2543bf02c28c3b2decfb7f46e7')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell
               '348C8651206633FD983A8FC4DEACEA00075E1D76'  # KDE Neon
-              'D07BD8662C56CB291B316EB2F5675605C74E02CF') # David Edmundson
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
 
 prepare() {
   cd "$srcdir/$_realname-$pkgver"
